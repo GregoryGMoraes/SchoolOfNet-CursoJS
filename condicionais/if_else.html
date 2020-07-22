@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JS SchoolOfNet</title>
+</head>
+
+<body>
+    <script>
+       //Condicionais if e else
+
+       //If se uma determinada expressão é verdadeira realize alguma ação
+       //Else senão realize outra ação
+       var num1 = prompt('Number 1:')
+       var num2 = prompt('Number 2:')
+       var op = prompt('Operation:')
+
+       num1 = parseFloat(num1)
+       num2 = parseFloat(num2)
+
+        if( op == '+' ){
+            console.log(num1 + num2)
+        }else if( op == '-' ){
+            console.log(num1 - num2)
+        }else if( op == '*'){
+            console.log(num1 * num2)
+        }else if ( op == '/' ){
+            console.log(num1 / num2)
+        }else {
+            console.error('Operation not found')
+        }
+
+    
+    </script>
+</body>
+
+</html>

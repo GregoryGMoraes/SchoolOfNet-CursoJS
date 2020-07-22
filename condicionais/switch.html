@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JS SchoolOfNet</title>
+</head>
+
+<body>
+    <script>
+        //Condicionais switch para expressões mais simples
+        var num1 = prompt('Number 1:')
+        var num2 = prompt('Number 2:')
+        var op = prompt('Operation:')
+
+        num1 = parseFloat(num1)
+        num2 = parseFloat(num2)
+
+        switch (op) {
+            case '+':
+                console.log(num1 + num2)
+                break;
+            case '-':
+                console.log(num1 - num2)
+                break;
+            case '*':
+                console.log(num1 * num2)
+                break;
+            case '/':
+                console.log(num1 / num2)
+                break;
+            default:
+                console.error('Operation Not Found')
+        } 
+
+        console.log('Script Running')
+    </script>
+</body>
+
+</html>
